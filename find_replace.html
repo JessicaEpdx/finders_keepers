@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src='js/lib/jquery-1.11.3.js'></script>
+    <script src='js/script.js'></script>
+
+  </head>
+  <body>
+
+    <div class='container'>
+
+      <h2>Change That Word</h2>
+
+      <form id='word-form'>
+
+        <div class="form-group">
+          <label for='string'>Enter string</label>
+          <input type='text' id='string'>
+        </div>
+
+        <div class="form-group">
+          <label for='word-to-change'>Enter word to change</label>
+          <input type='text' id='word-to-change'>
+        </div>
+
+        <div class="form-group">
+          <label for='new-word'>Enter replacement word</label>
+          <input type='text' id='new-word'>
+        </div>
+
+          <button type='submit' class="btn">Submit</button>
+      </form>
+
+      <div id='results'></div>
+
+    </div>
+  </body>
+</html>
