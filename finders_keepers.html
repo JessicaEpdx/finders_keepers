@@ -21,17 +21,17 @@
         <form id='word-form'>
 
           <div class="form-group">
-            <label for='string'>Enter string</label>
+            <label for='string'>Sentence</label>
             <input type='text' id='string' placeholder="ex: Hey there">
           </div>
 
           <div class="form-group">
-            <label for='word-to-change'>Enter word to change</label>
+            <label for='word-to-change'>Word to change</label>
             <input type='text' id='word-to-change' placeholder="ex: Hey">
           </div>
 
           <div class="form-group">
-            <label for='new-word'>Enter replacement word</label>
+            <label for='new-word'>Replacement word</label>
             <input type='text' id='new-word' placeholder="ex: Hi">
           </div>
 
@@ -44,5 +44,13 @@
       </div>
 
     </div>
+
+    <script>
+    var fadeOnLoad = function(){
+      $(window).on("load", function(){
+        $(".form-div").fadeIn("slow");
+      });
+    };
+    </script>
   </body>
 </html>

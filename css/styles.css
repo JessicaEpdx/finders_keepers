@@ -11,8 +11,6 @@ body{
   background-color:white;
   width:70%;
   border-radius:20px;
-
-
 }
 
 #word-form{
@@ -48,16 +46,14 @@ body{
 
 }
 
-
 @media screen and (max-width: 600px){
-#word-form{
-  font-size:10px;
-  padding-right:10px;
+  #word-form{
+    font-size:10px;
+    padding-right:10px;
 
-}
+  }
 
-#results{
-  font-size:20px;
-}
-
+  #results{
+    font-size:20px;
+  }
 }

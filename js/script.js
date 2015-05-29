@@ -15,20 +15,11 @@ var findReplace = function(string, wordToChange, newWord){
 
 };
 
-
-
 $("document").ready(function(){
 
-  $(window).load(function(){
-    $(".form-div").fadeIn("slow");
-
-  })
-
-
+  fadeOnLoad();
 
   $("#word-form").submit(function(event){
-
-
 
     var stringInput = $("#string").val();
     var wordToChangeInput = $("#word-to-change").val();
@@ -40,5 +31,5 @@ $("document").ready(function(){
     $("#results-div").slideDown(500);
 
     event.preventDefault();
-  })
+  });
 });

@@ -1,6 +1,8 @@
 ## Finders Keepers ##
 
-This application is meant to fulfill the requirements of an assignment through Epicodus code school. For more information on Epicodus, see <http://www.epicodus.com/>.
+#### Author ####
+
+Jessica Engel
 
 ### Description ###
 
@@ -8,13 +10,15 @@ Finders Keepers is a program where users can input a string, a word in the strin
 
 The user can input letters, numbers, and characters.
 
-### Author ###
-
-Jessica Engel
-
 ### Setup ###
 
-Open find_replace.html (in the main find_replace folder) in a web browser
+Open finders_keepers.html (in the main find_replace folder) in a web browser
+
+### Debugging ###
+
+fadeOnLoad() function defined in finders_keepers.html file because when its defined in script.js file it will cause mocha spec error due to a global leak from window.on("load")
+
+If there are any bugs contact JessicaEpdx@gmail.com
 
 ### License ###
 This is free and unencumbered software released into the public domain.
