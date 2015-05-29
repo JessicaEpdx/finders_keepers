@@ -10,6 +10,9 @@ body{
   margin-top:25%;
   background-color:white;
   width:70%;
+  border-radius:20px;
+
+
 }
 
 #word-form{
@@ -31,8 +34,9 @@ body{
 }
 
 #results{
+  font-size:30px;
   margin:0 auto;
-  margin-left:25%;
+  word-wrap:break-word;
 }
 
 .show-results{

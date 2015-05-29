@@ -20,8 +20,7 @@ var findReplace = function(string, wordToChange, newWord){
 $("document").ready(function(){
 
   $(window).load(function(){
-    $(".form-div").fadeIn("slow", function(){
-    });
+    $(".form-div").fadeIn("slow");
 
   })
 
