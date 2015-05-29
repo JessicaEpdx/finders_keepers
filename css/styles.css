@@ -4,6 +4,7 @@ body{
 }
 
 .form-div{
+  display:none;
   padding:20px;
   margin:0 auto;
   margin-top:25%;
@@ -31,7 +32,7 @@ body{
 
 #results{
   margin:0 auto;
-  margin-left:30%;
+  margin-left:25%;
 }
 
 .show-results{

@@ -19,7 +19,17 @@ var findReplace = function(string, wordToChange, newWord){
 
 $("document").ready(function(){
 
+  $(window).load(function(){
+    $(".form-div").fadeIn("slow", function(){
+    });
+
+  })
+
+
+
   $("#word-form").submit(function(event){
+
+
 
     var stringInput = $("#string").val();
     var wordToChangeInput = $("#word-to-change").val();
