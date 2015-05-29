@@ -15,20 +15,20 @@ var findReplace = function(string, wordToChange, newWord){
 
 };
 
-$('document').ready(function(){
-
-  $('#word-form').submit(function(event){
 
 
+$("document").ready(function(){
+
+  $("#word-form").submit(function(event){
+
+    var stringInput = $("#string").val();
+    var wordToChangeInput = $("#word-to-change").val();
+    var newWordInput = $("#new-word").val();
+
+    var outputResult = findReplace(stringInput, wordToChangeInput, newWordInput);
+
+    $("#results").text(outputResult)
 
     event.preventDefault();
   })
-
-
-
-
-
-
-
-
 });
