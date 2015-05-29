@@ -11,8 +11,12 @@ describe('findReplace', function(){
     expect(findReplace("hey there", "hey", "hi")).to.equal("Hi there");
   });
 
-  it("will accept numbers as input", function(){
+  it("will accept numbers as word input", function(){
     expect(findReplace("8 monkeys", 8, 12)).to.equal("12 monkeys");
+  });
+
+  it("will accept numbers as string input", function(){
+    expect(findReplace(8, 8, 12)).to.equal("12");
   });
 
   it("accept equality of words regardless of attached punctuation", function(){
