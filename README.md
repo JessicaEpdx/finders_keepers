@@ -4,20 +4,17 @@ This application is meant to fulfill the requirements of an assignment through E
 
 ### Description ###
 
-[simple app description]
+Finders Keepers is a program where users can input a string, a word in the string, and a word to replace it with. The output is the new string!
 
-**Assignment:** [assignment title]
+The user can input letters, numbers, and characters.
 
-**<https://www.learnhowtoprogram.com/table-of-contents>**
+### Author ###
 
-### Author(s) ###
-
-Andrew Finstrom
+Jessica Engel
 
 ### Setup ###
-```
-    setup code or details here
-```
+
+Open find_replace.html (in the main find_replace folder) in a web browser
 
 ### License ###
 This is free and unencumbered software released into the public domain.
