@@ -37,8 +37,7 @@ $("document").ready(function(){
     var outputResult = findReplace(stringInput, wordToChangeInput, newWordInput);
 
     $("#results").text(outputResult);
-    $("#results-div").fadeIn("slow", function(){
-    });
+    $("#results-div").slideDown(500);
 
     event.preventDefault();
   })
