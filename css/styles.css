@@ -20,12 +20,39 @@ body{
   padding-left:10%;
 }
 
+#results-div{
+  display:none;
+  width:50%;
+  margin: 0 auto;
+  margin-top:20px;
+  background-color:white;
+  padding:20px;
+}
+
+#results{
+  margin:0 auto;
+  margin-left:30%;
+}
+
+.show-results{
+	transform:rotate(20deg);
+	transition: transform;
+	transition-delay: .5s;
+	transition-timing-function: ease-in;
+
+}
+
 
 @media screen and (max-width: 600px){
 #word-form{
   font-size:10px;
   padding-right:10px;
 
+}
+
+#results{
+  font-size:10px;
+  margin-left:20%;
 }
 
 }

@@ -27,7 +27,8 @@ $("document").ready(function(){
 
     var outputResult = findReplace(stringInput, wordToChangeInput, newWordInput);
 
-    $("#results").text(outputResult)
+    $("#results").text(outputResult);
+    $("#results-div").show();
 
     event.preventDefault();
   })

@@ -1,4 +1,4 @@
-## [APPNAME] ##
+## Finders Keepers ##
 
 This application is meant to fulfill the requirements of an assignment through Epicodus code school. For more information on Epicodus, see <http://www.epicodus.com/>.
 
