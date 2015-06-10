@@ -10,8 +10,18 @@ var findReplace = function(string, wordToChange, newWord){
     string = string.toString();
   }
 
-  var result = string.replace(wordToChange, newWord);
-  return result.charAt(0).toUpperCase() + result.slice(1);
+  var stringArray = string.split(" ");
+  var result = [ ]
+  var arrayLength = stringArray.length;
+  for (var i = 0; i < arrayLength; i++) {
+    var word = stringArray[i]
+    if(word === wordToChange){
+      result.push(newWord);
+    }else{
+      result.push(word);
+    }
+  }
+    return result.join(' ');
 
 };
 
